@@ -27,6 +27,14 @@
   height: 100%;
 }
 
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 @mixin pct($pct) {
   width: #{$pct};
   position: relative;
