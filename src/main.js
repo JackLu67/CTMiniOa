@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2019-11-11 11:26:22
- * @LastEditTime: 2019-11-11 16:24:30
+ * @LastEditTime: 2019-11-13 14:54:18
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \studyd:\ctminioa\src\main.js
@@ -18,6 +18,7 @@ import '@/styles/index.scss' // 全局 css
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import './permission'
 
 Vue.use(Element)
 
